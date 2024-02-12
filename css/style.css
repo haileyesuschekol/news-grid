@@ -125,21 +125,17 @@ h6 {
 }
 
 .bg-dark h1,
-h2,
-h3,
-a {
-  color: #fff;
-}
+.bg-dark h2,
+.bg-dark h3,
+.bg-dark a,
 .bg-primary h1,
-h2,
-h3,
-a {
-  color: #fff;
-}
+.bg-primary h1,
+.bg-primary h1,
+.bg-primary a,
 .bg-secondary h1,
-h2,
-h3,
-a {
+.bg-secondary h2,
+.bg-secondary h3,
+.bg-secondary a {
   color: #fff;
 }
 
@@ -169,6 +165,18 @@ a {
 }
 .list li a:hover {
   color: var(--primary-color);
+}
+
+/* inner page grid container */
+.page-container {
+  display: grid;
+  grid-template-columns: 5fr 2fr;
+  margin: 2rem 0;
+  gap: 1.5rem;
+}
+
+.page-container > *:first-child {
+  grid-row: 1 / span 6;
 }
 
 /* navigation */
