@@ -1,4 +1,4 @@
-## News letter website
+## News letter website (Frontend)
 
 A simple and responsive static website built with HTML and CSS. This project demonstrates clean design, responsiveness, and basic web development best practices.
 
